@@ -195,7 +195,7 @@ if not SKIP_CUDA_BUILD:
                         "-U__CUDA_NO_BFLOAT16_CONVERSIONS__",
                         "--expt-relaxed-constexpr",
                         "--expt-extended-lambda",
-                        "--use_fast_math",
+                        #"--use_fast_math",
                         # "--ptxas-options=-v",
                         # "--ptxas-options=-O2",
                         # "-lineinfo",
